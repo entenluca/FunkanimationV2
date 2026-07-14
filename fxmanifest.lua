@@ -2,8 +2,16 @@ fx_version "cerulean"
 game "gta5"
 lua54 "yes"
 author 'Luis-Werkstatt™️'
-description 'Funkanimation für pma-voice [/funkani] | mit Kleidungs-Mapping via config.lua'
-version '1.0.3'
+description 'Funkanimation für pma-voice [/funkani] | Custom UI'
+version '1.0.4'
+
+ui_page "html/index.html"
+
+files {
+    "html/index.html",
+    "html/style.css",
+    "html/script.js",
+}
 
 shared_scripts {
     "@ox_lib/init.lua"
@@ -21,6 +29,7 @@ server_scripts {
 
 escrow_ignore {
     "data/config.lua",
+    "html/**",
 }
 
 dependencies {

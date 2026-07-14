@@ -1,16 +1,18 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelog": [
-        "Change: Ingame-Adminpanel entfernt",
-        "Change: Kleidungs-Mappings werden jetzt in config.lua eingerichtet",
-        "Change: oxmysql-Abhängigkeit entfernt"
+        "Change: Automatische Kleidungs-Erkennung vorerst deaktiviert",
+        "Feature: Eigene Custom UI statt ox_lib Menü",
+        "Change: ox_lib wird nur noch für Benachrichtigungen genutzt"
     ],
     "files": [
         "data/config.lua",
         "data/version.lua",
         "client/main.lua",
         "fxmanifest.lua",
-        "server/main.lua"
+        "html/index.html",
+        "html/style.css",
+        "html/script.js"
     ]
 }

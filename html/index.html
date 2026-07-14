@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funkanimation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="hidden">
+        <div class="panel">
+            <header class="panel-header">
+                <div class="header-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 8h14l-1 10H6L5 8z"/>
+                        <path d="M9 8V6a3 3 0 0 1 6 0v2"/>
+                        <circle cx="12" cy="13" r="2"/>
+                    </svg>
+                </div>
+                <div class="header-text">
+                    <h1>Funkanimation</h1>
+                    <p>Wähle deine Funk-Geste</p>
+                </div>
+                <button class="btn-close" id="btn-close" aria-label="Schließen">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </header>
+
+            <div class="status-bar">
+                <div class="status-item">
+                    <span class="status-label">Radio</span>
+                    <span class="status-value" id="radio-status">Inaktiv</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Aktiv</span>
+                    <span class="status-value" id="active-emote">—</span>
+                </div>
+            </div>
+
+            <div class="animation-list" id="animation-list"></div>
+
+            <footer class="panel-footer">
+                <span>ESC zum Schließen</span>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
