@@ -1,9 +1,8 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelog": [
-        "Feature: SVG-Icons statt Emojis in der Custom UI",
-        "Change: UI-Design überarbeitet (Glassmorphism, Animationen, Status-Karten)"
+        "Fix: Schwarzer NUI-Hintergrund behoben (backdrop-filter entfernt, Transparenz korrigiert)"
     ],
     "files": [
         "data/config.lua",
