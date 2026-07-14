@@ -1,11 +1,12 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelog": [
-        "Change: Funkstatus-Icon zu Walkie-Talkie geändert"
+        "Change: Automatische Kleidungs-Erkennung komplett entfernt"
     ],
     "files": [
-        "html/index.html",
+        "data/config.lua",
+        "client/main.lua",
         "fxmanifest.lua",
         "data/version.lua"
     ]

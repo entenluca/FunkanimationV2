@@ -181,16 +181,3 @@ CreateThread(function()
     while not NetworkIsSessionStarted() do Wait(500) end
     print("^2[Funkanimation]^7 Gestartet | Emote: " .. state.selectedEmote)
 end)
-
---[[
-    Automatische Kleidungs-Erkennung (vorerst deaktiviert)
-    Wird in einer zukünftigen Version wieder aktiviert.
-
-    local function getEmoteByClothing()
-        local ped = PlayerPedId()
-        for _, mapping in ipairs(config.clothingAnimations) do
-            -- Drawable/Texture Matching ...
-        end
-        return config.defaultEmote
-    end
-]]

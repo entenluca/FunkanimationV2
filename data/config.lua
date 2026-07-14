@@ -37,18 +37,4 @@ config.radioMenu = {
 config.blacklistedPeds    = { `a_c_seagull`, `a_c_shepard`, `a_c_poodle`, `a_c_mtlion`, `a_c_chimp`, `a_c_pig` }
 config.blacklistedClasses = { 8, 13, 15, 16 }
 
---[[
-    Automatische Kleidungs-Erkennung (vorerst deaktiviert)
-
-    config.clothingAnimations = {
-        {
-            label     = "Polizei Uniform",
-            component = 11,
-            drawable  = 55,
-            texture   = "0",
-            emote     = "radiochest",
-        },
-    }
-]]
-
 return config
