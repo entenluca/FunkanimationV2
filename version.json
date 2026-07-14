@@ -1,11 +1,13 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "download": "https://portal.cfx.re/assets/granted-assets",
     "changelog": [
-        "Change: Discord Webhook entfernt"
+        "Change: Luis-Werkstatt Text aus der UI entfernt"
     ],
     "files": [
-        "data/version.lua",
-        "fxmanifest.lua"
+        "html/index.html",
+        "html/style.css",
+        "fxmanifest.lua",
+        "data/version.lua"
     ]
 }

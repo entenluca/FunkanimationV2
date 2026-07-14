@@ -143,23 +143,12 @@ body {
     height: 24px;
 }
 
-.brand-label {
-    display: block;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--accent-soft);
-    opacity: 0.85;
-}
-
 .brand-text h1 {
     font-size: 20px;
     font-weight: 700;
     color: var(--text-primary);
     letter-spacing: -0.03em;
     line-height: 1.2;
-    margin-top: 1px;
 }
 
 .btn-close {
